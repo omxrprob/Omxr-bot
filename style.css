@@ -56,7 +56,7 @@ a:hover {
   font-size: 12px;
 }
 
-.footer-buttons a {
+.small-button {
   color: #7289da;
   text-decoration: none;
   margin: 0 10px;
@@ -64,15 +64,16 @@ a:hover {
   border: 1px solid #7289da;
   border-radius: 5px;
   transition: all 0.2s ease;
+  display: inline-block;
 }
 
-.footer-buttons a:hover {
+.small-button:hover {
   background-color: #7289da;
   color: #2c2f33;
   transform: scale(1.1);
 }
 
-.footer-buttons a:active {
+.small-button:active {
   transform: scale(0.95);
 }
 
