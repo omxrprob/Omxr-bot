@@ -2,26 +2,27 @@
   margin-top: 100px;
   display: flex;
   justify-content: center;
-  gap: 15px;
+  gap: 20px;
   flex-wrap: wrap;
 }
 
-.small-button {
+.footer-link {
   color: #ffffff;
-  background-color: #7289da;
-  border: none;
-  padding: 10px 20px;
+  padding: 8px 16px;
+  background-color: #40444b;
+  border: 1px solid #7289da;
   border-radius: 6px;
   font-size: 14px;
-  transition: all 0.2s ease;
   text-decoration: none;
+  transition: all 0.2s ease;
 }
 
-.small-button:hover {
-  background-color: #5b6eae;
-  transform: scale(1.05);
+.footer-link:hover {
+  background-color: #5865f2;
+  color: #ffffff;
+  transform: translateY(-2px);
 }
 
-.small-button:active {
+.footer-link:active {
   transform: scale(0.95);
 }
